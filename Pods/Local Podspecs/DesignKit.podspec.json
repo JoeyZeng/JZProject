@@ -1,0 +1,21 @@
+{
+  "name": "DesignKit",
+  "version": "0.1.0",
+  "summary": "A short description of DesignKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/joey zeng/DesignKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "joey zeng": "289573725@qq.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "src/**/*"
+}

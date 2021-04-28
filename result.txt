@@ -1,0 +1,4 @@
+   6.9691s       Capabilities for Signing & Capabilities may not function correctly because its entitlements use a placeholder team ID. To resolve this, select a development team in the JZProject editor. (in target 'JZProject' from project 'JZProject')
+   0.0249s   ▸ Build Succeeded
+             
+     Total   6.9944s
