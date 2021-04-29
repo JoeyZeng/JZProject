@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5ACAD7BCC03F63646A415B3F /* Pods_JZProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF66645F7568B923A5C843 /* Pods_JZProjectTests.framework */; };
+		66289BCF2639D00D00055C0E /* BuildTargetTogglesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66289BCE2639D00C00055C0E /* BuildTargetTogglesDataStore.swift */; };
+		66289BD72639D0F100055C0E /* TogglesDataStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66289BD62639D0F100055C0E /* TogglesDataStoreType.swift */; };
+		66289BDC2639D3AA00055C0E /* InternalTogglesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66289BDB2639D3AA00055C0E /* InternalTogglesDataStore.swift */; };
 		6669DE7A2608F1520083896A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669DE792608F1520083896A /* AppDelegate.swift */; };
 		6669DE7C2608F1520083896A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669DE7B2608F1520083896A /* SceneDelegate.swift */; };
 		6669DE7E2608F1520083896A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669DE7D2608F1520083896A /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 		586B94371B320AC733786933 /* Pods-JZProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZProjectTests.release.xcconfig"; path = "Target Support Files/Pods-JZProjectTests/Pods-JZProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F7E9A60AFB9CA199BCFAEC7 /* Pods-JZProject.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZProject.appstore.xcconfig"; path = "Target Support Files/Pods-JZProject/Pods-JZProject.appstore.xcconfig"; sourceTree = "<group>"; };
 		632D8578996703FD3604B194 /* Pods-JZProjectTests.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZProjectTests.internal.xcconfig"; path = "Target Support Files/Pods-JZProjectTests/Pods-JZProjectTests.internal.xcconfig"; sourceTree = "<group>"; };
+		66289BCE2639D00C00055C0E /* BuildTargetTogglesDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTargetTogglesDataStore.swift; sourceTree = "<group>"; };
+		66289BD62639D0F100055C0E /* TogglesDataStoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglesDataStoreType.swift; sourceTree = "<group>"; };
+		66289BDB2639D3AA00055C0E /* InternalTogglesDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTogglesDataStore.swift; sourceTree = "<group>"; };
 		6669DE762608F1520083896A /* JZProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6669DE792608F1520083896A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6669DE7B2608F1520083896A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66289BCC2639CFBE00055C0E /* Foundations */ = {
+			isa = PBXGroup;
+			children = (
+				66289BCD2639CFDF00055C0E /* Toggles */,
+			);
+			path = Foundations;
+			sourceTree = "<group>";
+		};
+		66289BCD2639CFDF00055C0E /* Toggles */ = {
+			isa = PBXGroup;
+			children = (
+				66289BCE2639D00C00055C0E /* BuildTargetTogglesDataStore.swift */,
+				66289BDB2639D3AA00055C0E /* InternalTogglesDataStore.swift */,
+				66289BD62639D0F100055C0E /* TogglesDataStoreType.swift */,
+			);
+			path = Toggles;
+			sourceTree = "<group>";
+		};
 		6669DE6D2608F1520083896A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +161,7 @@
 				6669DE7F2608F1520083896A /* Main.storyboard */,
 				6669DE7B2608F1520083896A /* SceneDelegate.swift */,
 				6669DE7D2608F1520083896A /* ViewController.swift */,
+				66289BCC2639CFBE00055C0E /* Foundations */,
 			);
 			path = JZProject;
 			sourceTree = "<group>";
@@ -434,6 +459,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6669DE7A2608F1520083896A /* AppDelegate.swift in Sources */,
+				66289BD72639D0F100055C0E /* TogglesDataStoreType.swift in Sources */,
+				66289BDC2639D3AA00055C0E /* InternalTogglesDataStore.swift in Sources */,
+				66289BCF2639D00D00055C0E /* BuildTargetTogglesDataStore.swift in Sources */,
 				6669DE7C2608F1520083896A /* SceneDelegate.swift in Sources */,
 				6669DE7E2608F1520083896A /* ViewController.swift in Sources */,
 			);
